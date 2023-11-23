@@ -31,4 +31,12 @@ public class JenkinsController {
  	return"hellllllo";
  		
  	}
+
+
+@GetMapping("/hi2")
+public String  hello2() {
+	
+return"hellllllo2";
+}
+
 }
